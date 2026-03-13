@@ -1,0 +1,35 @@
+.hero{
+position:relative;
+padding:100px 40px;
+background:#f6f6f6;
+overflow:hidden;
+}
+
+.hero-bg{
+position:absolute;
+right:0;
+top:0;
+bottom:0;
+width:60%;
+background-image:url('courthouse-outline.png');
+background-repeat:no-repeat;
+background-size:contain;
+background-position:right center;
+opacity:0.08;
+}
+
+.hero-content{
+position:relative;
+max-width:800px;
+}
+
+.notice{
+margin-top:20px;
+font-weight:bold;
+}
+
+.disclaimer{
+margin-top:20px;
+font-size:14px;
+color:#666;
+}

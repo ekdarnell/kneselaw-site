@@ -18,10 +18,33 @@ body{
   margin: 0 auto;
 }
 
-@media (max-width: 768px) {
+.about-grid {
+  display: grid;
+  grid-template-columns: 1fr 1.2fr;
+  gap: 2rem;
+}
+
+
+
+@media (max-width: 568px) {
   .container {
     width: 94%;
   }
+
+  .about-grid {
+    grid-template-columns: 1fr;
+    gap: 1.25rem;
+  }
+
+  .hero {
+    padding: 2.5rem 0 2rem;
+  }
+
+  nav {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
 }
 
 /* HEADER */

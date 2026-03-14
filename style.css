@@ -33,11 +33,11 @@ header{
   gap:22px;
 }
 
-/* MUCH LARGER LOGO */
+/* LARGER LOGO */
 
 .logo{
-  width:auto;
-  height:342px;
+  width:1520px;
+  height:auto;
 }
 
 .brand-text h1{

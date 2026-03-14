@@ -64,9 +64,9 @@ nav a:hover{
   text-decoration:underline;
 }
 
-/* HBIO SECTION */
+/* hero SECTION */
 
-.hbio{
+.hero{
   position:relative;
   padding:120px 40px;
   background:#f6f4ec;
@@ -75,7 +75,7 @@ nav a:hover{
 
 /* COURTHOUSE BACKGROUND */
 
-.hbio-bg{
+.hero-bg{
   position:absolute;
   right:-60px;
   top:0;
@@ -89,18 +89,18 @@ nav a:hover{
   filter:contrast(85%);
 }
 
-.hbio-content{
+.hero-content{
   position:relative;
   max-width:700px;
 }
 
-.hbio h2{
+.hero h2{
   font-size:44px;
   margin-bottom:10px;
   position:relative;
 }
 
-.hbio h2::after{
+.hero h2::after{
   content:"";
   display:block;
   width:90px;
@@ -109,7 +109,7 @@ nav a:hover{
   margin-top:14px;
 }
 
-.hbio p{
+.hero p{
   font-size:21px;
 }
 

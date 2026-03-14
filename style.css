@@ -242,44 +242,64 @@ footer{
 
 /* PHONE */
 
-@media (max-width: 600px) {
+@media (max-width: 600px){
   .container{
     width:92%;
   }
 
   header{
-    padding:10px 0;
+    padding:10px 0 14px;
+    background:#ffffff;
+    position:relative;
+    z-index:20;
+  }
+
+  .header-row{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+    gap:10px;
+    text-align:center;
+  }
+
+  .brand{
+    display:block;
+    width:100%;
+    text-align:center;
   }
 
   .logo{
-    width:min(340px, 92vw);
-  }
-
-  .tagline{
-    font-size:15px;
+    width:min(280px, 82vw);
+    margin:0 auto;
   }
 
   nav{
-    gap:8px 14px;
+    display:flex;
+    width:100%;
+    justify-content:center;
+    align-items:center;
+    flex-wrap:wrap;
+    gap:6px 14px;
+    margin:0;
+    padding:4px 0 0;
+    background:#ffffff;
   }
 
   nav a{
-    font-size:17px;
-    padding:6px 0;
+    margin:0;
+    padding:2px 4px;
+    font-size:16px;
+    line-height:1.2;
+    white-space:nowrap;
   }
 
   .hero{
-    padding:46px 20px 40px;
+    padding:34px 16px 30px;
   }
 
   .hero-bg{
-    width:115%;
-    right:-180px;
-    top:20px;
-    bottom:auto;
-    height:100%;
-    opacity:0.08;
-    background-position:right top;
+    display:none;
   }
 
   .hero-content{
@@ -287,34 +307,40 @@ footer{
   }
 
   .hero h2{
-    font-size:30px;
+    font-size:26px;
     line-height:1.2;
+    margin-bottom:12px;
   }
 
   .hero h2::after{
-    width:72px;
-    margin-top:12px;
+    width:60px;
+    margin-top:10px;
   }
 
   .hero p{
-    font-size:18px;
+    font-size:17px;
   }
 
   .section{
-    padding:50px 0;
+    padding:42px 0;
   }
 
   h3{
-    font-size:26px;
+    font-size:24px;
   }
 
   .about{
-    gap:22px;
+    gap:20px;
   }
 
   .about-photo img{
-    max-width:min(260px, 78vw);
+    max-width:min(220px, 72vw);
     margin:0 auto;
+  }
+
+  .about-text{
+    max-width:100%;
+    text-align:left;
   }
 
   .disclaimer{
@@ -326,55 +352,3 @@ footer{
     padding:18px;
   }
 }
-
-
-/* 
-body{
-  margin:0;
-  font-family: Georgia, serif;
-  color:#1b2a4a;
-  font-size: clamp(1rem, 2.8vw, 1.125rem);
-  line-height:1.65;
-  background:#faf8f2;
-}
-
-/*.container{
-  max-width:1000px;
-  margin:auto;
-  padding:30px;
-} */
-/*
-.container {
-  width: min(1100px, 92%);
-  margin: 0 auto;
-}
-
-.about-grid {
-  display: grid;
-  grid-template-columns: 1fr 1.2fr;
-  gap: 2rem;
-}
-
-
-
-@media (max-width: 568px) {
-  .container {
-    width: 94%;
-  }
-
-  .about-grid {
-    grid-template-columns: 1fr;
-    gap: 1.25rem;
-  }
-
-  .hero {
-    padding: 2.5rem 0 2rem;
-  }
-
-  nav {
-    flex-wrap: wrap;
-    justify-content: center;
-  }
-
-}
- */
